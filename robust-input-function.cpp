@@ -14,7 +14,11 @@ void get_int(int& input_number);
 
 int main()
 {
-
+    using namespace std;
+    int input_number;
+    get_int(input_number);
+    cout << "Final value read in = " << input_number << endl;
+    return 0;
 }
 
 void read_and_clean(int& n)
